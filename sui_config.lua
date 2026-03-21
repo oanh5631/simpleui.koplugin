@@ -1477,4 +1477,85 @@ function M.makeScaleItem(opts)
     }
 end
 
+
+-- ---------------------------------------------------------------------------
+-- Per-module gap — vertical space above each module.
+-- Setting key: <pfx><mod_id>_gap_pct  (integer %, default 100)
+-- 100% = MOD_GAP; 0% = no gap.
+-- ---------------------------------------------------------------------------
+
+local GAP_MIN  = 0
+local GAP_MAX  = 300
+local GAP_STEP = 10
+local GAP_DEF  = 100
+
+M.GAP_MIN  = GAP_MIN
+M.GAP_MAX  = GAP_MAX
+M.GAP_STEP = GAP_STEP
+M.GAP_DEF  = GAP_DEF
+
+local function _gapKey(mod_id, pfx)
+    return (pfx or "navbar_homescreen_") .. (mod_id or "") .. "_gap_pct"
+end
+
+local function _clampGap(n)
+    return math.max(GAP_MIN, math.min(GAP_MAX, math.floor(n)))
+end
+
+-- Returns gap in pixels. Falls back to mod_gap_px when no setting is saved.
+function M.getModuleGapPx(mod_id, pfx, mod_gap_px)
+    if mod_id and pfx then
+        local v = G_reader_settings:readSetting(_gapKey(mod_id, pfx))
+        local n = tonumber(v)
+        if n then return math.floor(mod_gap_px * _clampGap(n) / 100) end
+    end
+    return mod_gap_px
+end
+
+-- Returns integer % for SpinWidget.
+function M.getModuleGapPct(mod_id, pfx)
+    if mod_id and pfx then
+        local v = G_reader_settings:readSetting(_gapKey(mod_id, pfx))
+        local n = tonumber(v)
+        if n then return _clampGap(n) end
+    end
+    return GAP_DEF
+end
+
+-- Saves gap %.
+function M.setModuleGap(pct, mod_id, pfx)
+    if mod_id and pfx then
+        G_reader_settings:saveSetting(_gapKey(mod_id, pfx), _clampGap(pct))
+    end
+end
+
+-- Menu-item factory for the gap SpinWidget, matching makeScaleItem's pattern.
+function M.makeGapItem(opts)
+    return {
+        text_func      = opts.text_func,
+        separator      = opts.separator or nil,
+        keep_menu_open = true,
+        callback       = function()
+            local SpinWidget = require("ui/widget/spinwidget")
+            local UIManager  = require("ui/uimanager")
+            UIManager:show(SpinWidget:new{
+                title_text    = opts.title,
+                info_text     = opts.info,
+                value         = opts.get(),
+                value_min     = GAP_MIN,
+                value_max     = GAP_MAX,
+                value_step    = GAP_STEP,
+                unit          = "%",
+                ok_text       = _("Apply"),
+                cancel_text   = _("Cancel"),
+                default_value = GAP_DEF,
+                callback      = function(spin)
+                    opts.set(spin.value)
+                    opts.refresh()
+                end,
+            })
+        end,
+    }
+end
+
 return M
