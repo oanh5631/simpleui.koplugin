@@ -1,0 +1,1043 @@
+# Simple UI — KOReader Plugin
+# Copyright (C) 2024 Simple UI Contributors
+# This file is distributed under the same license as the Simple UI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: simpleui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 21:54+0000\n"
+"PO-Revision-Date: 2026-03-25 00:00+0000\n"
+"Last-Translator: Daniel Osiński <daniel@osinski.fr>\n"
+"Language-Team: Français (France)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "  Physical Books  (%d in %s)"
+msgstr "  Livres physiques  (%d sur %s)"
+
+msgid "  Set Goal  (%d books in %s)"
+msgstr "  Définir l'objectif  (%d livres sur %s)"
+
+msgid "  Set Goal  (%d min/day)"
+msgstr "  Définir l'objectif  (%d min/jour)"
+
+msgid "  Set Goal  (%s)"
+msgstr "  Définir l'objectif  (%s)"
+
+msgid "  Set Goal  (disabled)"
+msgstr "  Définir l'objectif  (désactivé)"
+
+msgid "%d books"
+msgstr "%d livres"
+
+msgid "%d%% Read"
+msgstr "%d%% lu"
+
+msgid "%d/%d books"
+msgstr "%d/%d livres"
+
+msgid "%s TO GO"
+msgstr "%s RESTANTS"
+
+msgid "%s read"
+msgstr "%s lus"
+
+msgid "Add at least 2 actions to arrange."
+msgstr "Ajoutez au moins 2 actions à organiser."
+
+msgid "Add at least 2 stats to arrange."
+msgstr "Ajoutez au moins 2 statistiques à organiser."
+
+msgid "All time — Books"
+msgstr "Depuis le début — Livres"
+
+msgid "All time — Time"
+msgstr "Depuis le début — Temps"
+
+msgid "Annual Goal"
+msgstr "Objectif annuel"
+
+msgid "Annual Reading Goal"
+msgstr "Objectif de lecture annuel"
+
+msgid "Arrange"
+msgstr "Organiser"
+
+msgid "Arrange %s"
+msgstr "Organiser %s"
+
+msgid "Arrange Collections"
+msgstr "Organiser les collections"
+
+msgid "Arrange Items"
+msgstr "Organiser les éléments"
+
+msgid "Arrange Modules"
+msgstr "Organiser les modules"
+
+msgid "Arrange Reading Stats"
+msgstr "Organiser les statistiques de lecture"
+
+msgid "Arrange tabs"
+msgstr "Organiser les onglets"
+
+msgid "Auto (first book)"
+msgstr "Auto (premier livre)"
+
+msgid "Battery"
+msgstr "Batterie"
+
+msgid "Book Info"
+msgstr "Infos du livre"
+
+msgid "Books to read in %s:"
+msgstr "Livres à lire en %s :"
+
+msgid "Bottom Bar"
+msgstr "Barre inférieure"
+
+msgid "Bottom Bar will be %s after restart.\n\nRestart now?"
+msgstr "La barre inférieure sera %s après le redémarrage.\n\nRedémarrer maintenant ?"
+
+msgid "Brightness"
+msgstr "Luminosité"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Clock"
+msgstr "Horloge"
+
+msgid "Collection"
+msgstr "Collection"
+
+msgid "Collection is empty."
+msgstr "La collection est vide."
+
+msgid "Collection not available: %s"
+msgstr "Collection indisponible : %s"
+
+msgid "Collections"
+msgstr "Collections"
+
+msgid "Collections not available."
+msgstr "Collections indisponibles."
+
+msgid "Compact"
+msgstr "Compact"
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "Create Quick Action"
+msgstr "Créer une action rapide"
+
+msgid "Currently Reading"
+msgstr "En cours de lecture"
+
+msgid "Custom"
+msgstr "Personnalisé"
+
+msgid "Custom Text"
+msgstr "Texte personnalisé"
+
+msgid "Daily Goal"
+msgstr "Objectif quotidien"
+
+msgid "Daily Reading Goal"
+msgstr "Objectif de lecture quotidien"
+
+msgid "Daily avg — Pages"
+msgstr "Moy./jour — Pages"
+
+msgid "Daily avg — Time"
+msgstr "Moy./jour — Temps"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Default"
+msgstr "Défaut"
+
+msgid "Default (Folder)"
+msgstr "Défaut (Dossier)"
+
+msgid "Default (Plugin)"
+msgstr "Défaut (Plugin)"
+
+msgid "Default (System)"
+msgstr "Défaut (Système)"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Dictionary Lookup"
+msgstr "Recherche dans le dictionnaire"
+
+msgid "Digital Goal  (%s)"
+msgstr "Objectif numérique  (%s)"
+
+msgid "Digital: %d books in %s"
+msgstr "Numérique : %d livres en %s"
+
+msgid "Disk Usage"
+msgstr "Utilisation du disque"
+
+msgid "Dispatcher not available."
+msgstr "Répartiteur indisponible."
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Edit Quick Action"
+msgstr "Modifier une action rapide"
+
+msgid "Enable at least 2 modules to arrange."
+msgstr "Activez au moins 2 modules à organiser."
+
+msgid "Extra Small"
+msgstr "Très petit"
+
+msgid "Favorites"
+msgstr "Favoris"
+
+msgid "Favorites not available."
+msgstr "Favoris indisponibles."
+
+msgid "File Search"
+msgstr "Recherche de fichiers"
+
+msgid "Folder"
+msgstr "Dossier"
+
+msgid "Folder Shortcuts"
+msgstr "Raccourcis de dossiers"
+
+msgid "Folder not found:\n%s"
+msgstr "Dossier introuvable :\n%s"
+
+msgid "Frontlight not available on this device."
+msgstr "Éclairage frontal indisponible sur cet appareil."
+
+msgid "Header"
+msgstr "En-tête"
+
+msgid "Header Text"
+msgstr "Texte d'en-tête"
+
+msgid "History"
+msgstr "Historique"
+
+msgid "History not available."
+msgstr "Historique indisponible."
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Home Screen"
+msgstr "Écran d'accueil"
+
+msgid "Homescreen"
+msgstr "Écran d'accueil"
+
+msgid "Homescreen not available."
+msgstr "Écran d'accueil indisponible."
+
+msgid "Icon"
+msgstr "Icône"
+
+msgid "Icon: Default"
+msgstr "Icône : Défaut"
+
+msgid "Icons"
+msgstr "Icônes"
+
+msgid "Icons only"
+msgstr "Icônes uniquement"
+
+msgid "Invalid arrangement.\nKeep items between the Left and Right separators."
+msgstr "Organisation invalide.\nGardez les éléments entre les séparateurs Gauche et Droite."
+
+msgid "Items"
+msgstr "Éléments"
+
+msgid "Large"
+msgstr "Grand"
+
+msgid "Later"
+msgstr "Plus tard"
+
+msgid "Left"
+msgstr "Gauche"
+
+msgid "Library"
+msgstr "Bibliothèque"
+
+msgid "Maximum %d actions per module reached. Remove one first."
+msgstr "Maximum de %d actions par module atteint. Supprimez-en une d'abord."
+
+msgid "Maximum %d modules active. Disable one first."
+msgstr "Maximum de %d modules actifs. Désactivez-en un d'abord."
+
+msgid "Maximum %d quick actions reached. Delete one first."
+msgstr "Maximum de %d actions rapides atteint. Supprimez-en une d'abord."
+
+msgid "Maximum %d stats per row. Remove one first."
+msgstr "Maximum de %d statistiques par ligne. Supprimez-en une d'abord."
+
+msgid "Maximum %d tabs reached. Remove one first."
+msgstr "Maximum de %d onglets atteint. Supprimez-en un d'abord."
+
+msgid "Maximum 5 collections. Remove one first."
+msgstr "Maximum 5 collections. Supprimez-en une d'abord."
+
+msgid "Minimum 2 tabs required. Select another tab first."
+msgstr "Minimum 2 onglets requis. Sélectionnez un autre onglet d'abord."
+
+msgid "Minutes per day:"
+msgstr "Minutes par jour :"
+
+msgid "Module Settings"
+msgstr "Paramètres du module"
+
+msgid "Module limit disabled. Enabling too many modules may slow down the homescreen significantly and modules may be clipped at the bottom of the page."
+msgstr "Limite de modules désactivée. Activer trop de modules peut ralentir considérablement l'écran d'accueil et les modules peuvent être coupés en bas de la page."
+
+msgid "Modules  (%d — no limit)"
+msgstr "Modules  (%d — sans limite)"
+
+msgid "Modules  (%d/%d — %d left)"
+msgstr "Modules  (%d/%d — %d restants)"
+
+msgid "Modules  (%d/%d — at limit)"
+msgstr "Modules  (%d/%d — limite atteinte)"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Network manager unavailable."
+msgstr "Gestionnaire réseau indisponible."
+
+msgid "New Quick Action"
+msgstr "Nouvelle action rapide"
+
+msgid "No Module Limit  ⚠ not recommended"
+msgstr "Aucune limite de modules  ⚠ déconseillé"
+
+msgid "No book in history."
+msgstr "Aucun livre dans l'historique."
+
+msgid "No books opened yet"
+msgstr "Aucun livre ouvert pour l'instant"
+
+msgid "No collections found."
+msgstr "Aucune collection trouvée."
+
+msgid "No collections selected"
+msgstr "Aucune collection sélectionnée"
+
+msgid "No folder, collection or plugin configured.\nGo to Simple UI → Settings → Quick Actions to set one."
+msgstr "Aucun dossier, collection ou plugin configuré.\nAllez dans Simple UI → Paramètres → Actions rapides pour en configurer un."
+
+msgid "No icons found in:"
+msgstr "Aucune icône trouvée dans :"
+
+msgid "No plugins found."
+msgstr "Aucun plugin trouvé."
+
+msgid "No quotes found."
+msgstr "Aucune citation trouvée."
+
+msgid "No stats selected"
+msgstr "Aucune statistique sélectionnée"
+
+msgid "No system actions found."
+msgstr "Aucune action système trouvée."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "Désactivé"
+
+msgid "On"
+msgstr "Activé"
+
+msgid "Open"
+msgstr "Ouvrir"
+
+msgid "Open \"%s\" to see this highlight?"
+msgstr "Ouvrir \"%s\" pour voir ce surlignage ?"
+
+msgid "Open a book to get started"
+msgstr "Ouvrez un livre pour commencer"
+
+msgid "Pagination Bar"
+msgstr "Barre de pagination"
+
+msgid "Pagination bar size will change after restart.\n\nRestart now?"
+msgstr "La taille de la barre de pagination changera après le redémarrage.\n\nRedémarrer maintenant ?"
+
+msgid "Pagination bar will be %s after restart.\n\nRestart now?"
+msgstr "La barre de pagination sera %s après le redémarrage.\n\nRedémarrer maintenant ?"
+
+msgid "Path is not a folder:\n%s"
+msgstr "Le chemin n'est pas un dossier :\n%s"
+
+msgid "Physical Books — %s"
+msgstr "Livres physiques — %s"
+
+msgid "Physical books read this year:"
+msgstr "Livres physiques lus cette année :"
+
+msgid "Physical: %d books in %s"
+msgstr "Physique : %d livres en %s"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Plugin error: %s"
+msgstr "Erreur de plugin : %s"
+
+msgid "Plugin not available: %s"
+msgstr "Plugin indisponible : %s"
+
+msgid "Power"
+msgstr "Alimentation"
+
+msgid "Quick Actions"
+msgstr "Actions rapides"
+
+msgid "Quick Actions  (%d/%d — %d left)"
+msgstr "Actions rapides  (%d/%d — %d restantes)"
+
+msgid "Quick Actions  (%d/%d — at limit)"
+msgstr "Actions rapides  (%d/%d — limite atteinte)"
+
+msgid "Quick Actions %d"
+msgstr "Actions rapides %d"
+
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "Quote of the Day"
+msgstr "Citation du jour"
+
+msgid "RAM Usage"
+msgstr "Utilisation de la RAM"
+
+msgid "Reading Goals"
+msgstr "Objectifs de lecture"
+
+msgid "Reading Stats"
+msgstr "Statistiques de lecture"
+
+msgid "Recent Books"
+msgstr "Livres récents"
+
+msgid "Restart"
+msgstr "Redémarrer"
+
+msgid "Right"
+msgstr "Droite"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Select at least 2 collections to arrange."
+msgstr "Sélectionnez au moins 2 collections à organiser."
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Show Labels"
+msgstr "Afficher les étiquettes"
+
+msgid "Simple UI"
+msgstr "Simple UI"
+
+msgid "Simple UI will be %s after restart.\n\nRestart now?"
+msgstr "Simple UI sera %s après le redémarrage.\n\nRedémarrer maintenant ?"
+
+msgid "Size"
+msgstr "Taille"
+
+msgid "Small"
+msgstr "Petit"
+
+msgid "Start with"
+msgstr "Démarrer avec"
+
+msgid "Start with Home Screen"
+msgstr "Démarrer avec l'écran d'accueil"
+
+msgid "Statistics plugin not available."
+msgstr "Plugin de statistiques indisponible."
+
+msgid "Stats"
+msgstr "Statistiques"
+
+msgid "Streak"
+msgstr "Série"
+
+msgid "Swipe Indicator"
+msgstr "Indicateur de glissement"
+
+msgid "System Actions"
+msgstr "Actions système"
+
+msgid "System action error: %s"
+msgstr "Erreur d'action système : %s"
+
+msgid "Tabs  (%d/%d — %d left)"
+msgstr "Onglets  (%d/%d — %d restants)"
+
+msgid "Tabs  (%d/%d — at limit)"
+msgstr "Onglets  (%d/%d — limite atteinte)"
+
+msgid "Text"
+msgstr "Texte"
+
+msgid "Text only"
+msgstr "Texte uniquement"
+
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgid "Today — Pages"
+msgstr "Aujourd'hui — Pages"
+
+msgid "Today — Time"
+msgstr "Aujourd'hui — Temps"
+
+msgid "Top Bar"
+msgstr "Barre supérieure"
+
+msgid "Top Bar will be %s after restart.\n\nRestart now?"
+msgstr "La barre supérieure sera %s après le redémarrage.\n\nRedémarrer maintenant ?"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Wi-Fi off"
+msgstr "Wi-Fi désactivé"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "WiFi not available on this device."
+msgstr "WiFi indisponible sur cet appareil."
+
+msgid "Wikipedia Lookup"
+msgstr "Recherche sur Wikipédia"
+
+msgid "books finished"
+msgstr "livres terminés"
+
+msgid "daily avg (7 days)"
+msgstr "moy./jour (7 jours)"
+
+msgid "day streak"
+msgstr "jour de suite"
+
+msgid "days streak"
+msgstr "jours de suite"
+
+msgid "disabled"
+msgstr "désactivé"
+
+msgid "e.g. Books…"
+msgstr "ex. Livres…"
+
+msgid "e.g. My Library"
+msgstr "ex. Ma bibliothèque"
+
+msgid "e.g. Rakuyomi…"
+msgstr "ex. Rakuyomi…"
+
+msgid "e.g. Sci-Fi…"
+msgstr "ex. SF…"
+
+msgid "e.g. Sleep, Refresh…"
+msgstr "ex. Veille, Rafraîchir…"
+
+msgid "enabled"
+msgstr "activé"
+
+msgid "hidden"
+msgstr "masqué"
+
+msgid "not configured"
+msgstr "non configuré"
+
+msgid "of reading today"
+msgstr "de lecture aujourd'hui"
+
+msgid "of reading, all time"
+msgstr "de lecture au total"
+
+msgid "pages read today"
+msgstr "pages lues aujourd'hui"
+
+msgid "pages/day (7 days)"
+msgstr "pages/jour (7 jours)"
+
+msgid "visible"
+msgstr "visible"
+
+msgid "Arrange Buttons"
+msgstr "Organiser les boutons"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Button Size"
+msgstr "Taille des boutons"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Custom Title Bar"
+msgstr "Barre de titre personnalisée"
+
+msgid "Custom Title Bar will be %s after restart.\n\nRestart now?"
+msgstr "La barre de titre personnalisée sera %s après le redémarrage.\n\nRedémarrer maintenant ?"
+
+msgid "Library Buttons"
+msgstr "Boutons de la bibliothèque"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "More Options"
+msgstr "Plus d'options"
+
+msgid "Sub-pages Buttons"
+msgstr "Boutons des sous-pages"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Title Bar"
+msgstr "Barre de titre"
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Delete quick action \"%s\"?"
+msgstr "Supprimer l'action rapide \"%s\" ?"
+
+msgid "Show Date"
+msgstr "Afficher la date"
+
+msgid "Show Battery"
+msgstr "Afficher la batterie"
+
+msgid "Cards"
+msgstr "Cartes"
+
+msgid "List"
+msgstr "Liste"
+
+msgid "Cover for \"%s\""
+msgstr "Couverture de \"%s\""
+
+msgid "    Size"
+msgstr "    Taille"
+
+msgid "Apply"
+msgstr "Appliquer"
+
+msgid "Bookmark browser"
+msgstr "Navigateur de signets"
+
+msgid "Bookmark browser not available."
+msgstr "Navigateur de signets indisponible."
+
+msgid "Bookmarks"
+msgstr "Signets"
+
+msgid "Bottom"
+msgstr "Bas"
+
+msgid "Bottom Bar Size"
+msgstr "Taille de la barre inférieure"
+
+msgid "Change Icons"
+msgstr "Changer les icônes"
+
+msgid "Cover size"
+msgstr "Taille de la couverture"
+
+msgid "Cover size  —  %d%%"
+msgstr "Taille de la couverture  —  %d%%"
+
+msgid "Fetching bookmarks…"
+msgstr "Récupération des signets…"
+
+msgid "Global scale for all modules.\nIndividual overrides in Module Settings take precedence.\n100% is the default size."
+msgstr "Échelle globale pour tous les modules.\nLes valeurs individuelles dans les Paramètres du module ont la priorité.\n100% est la taille par défaut."
+
+msgid "Height of the bottom navigation bar.\n100% is the default size."
+msgstr "Hauteur de la barre de navigation inférieure.\n100% est la taille par défaut."
+
+msgid "Height of the top status bar.\n100% is the default size."
+msgstr "Hauteur de la barre d'état supérieure.\n100% est la taille par défaut."
+
+msgid "Hidden"
+msgstr "Masqué"
+
+msgid "Home folder"
+msgstr "Dossier principal"
+
+msgid "Home folder + subfolders"
+msgstr "Dossier principal + sous-dossiers"
+
+msgid "Label Scale"
+msgstr "Échelle des étiquettes"
+
+msgid "Labels  —  %d%%"
+msgstr "Étiquettes  —  %d%%"
+
+msgid "Minimum 1 tab required in navpager mode."
+msgstr "Au moins 1 onglet est requis en mode navigateur."
+
+msgid "Module Scale"
+msgstr "Échelle des modules"
+
+msgid "Modules  —  %d%%"
+msgstr "Modules  —  %d%%"
+
+msgid "Navigation Bar"
+msgstr "Barre de navigation"
+
+msgid "Navpager"
+msgstr "Navigateur"
+
+msgid "Navpager will be %s after restart.\n\nRestart now?"
+msgstr "Le navigateur sera %s après le redémarrage.\n\nRedémarrer maintenant ?"
+
+msgid "New name…"
+msgstr "Nouveau nom…"
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "No highlights found. Open a book and highlight some passages."
+msgstr "Aucun surlignage trouvé. Ouvrez un livre et surlignez des passages."
+
+msgid "Page %1 of %2"
+msgstr "Page %1 sur %2"
+
+msgid "Page number in title bar"
+msgstr "Numéro de page dans la barre de titre"
+
+msgid "Prev"
+msgstr "Précédent"
+
+msgid "Rename"
+msgstr "Renommer"
+
+msgid "Replaces the pagination bar with Prev/Next arrows at the edges of the bottom bar.\nThe arrows dim when there is no previous or next page.\nWith navpager active, as few as 1 tab and at most 4 tabs can be configured."
+msgstr "Remplace la barre de pagination par des flèches Préc./Suiv. aux bords de la barre inférieure.\nLes flèches s'estompent lorsqu'il n'y a pas de page précédente ou suivante.\nAvec le navigateur actif, de 1 à 4 onglets au maximum peuvent être configurés."
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "Reset all scales to default (100%)? This cannot be undone."
+msgstr "Réinitialiser toutes les échelles à la valeur par défaut (100%) ? Cette action est irréversible."
+
+msgid "Reset to Default Scale"
+msgstr "Réinitialiser à l'échelle par défaut"
+
+msgid "Scale"
+msgstr "Échelle"
+
+msgid "Scale  —  %d%%"
+msgstr "Échelle  —  %d%%"
+
+msgid "Scale  —  %d%% / %d%%"
+msgstr "Échelle  —  %d%% / %d%%"
+
+
+msgid "Scale for the collection thumbnails only.\nThe label text follows the module scale.\n100% is the default size."
+msgstr "Échelle des miniatures de collection uniquement.\nLe texte des étiquettes suit l'échelle du module.\n100% est la taille par défaut."
+
+msgid "Scales all modules and labels together.\n100% is the default size."
+msgstr "Met à l'échelle tous les modules et étiquettes ensemble.\n100% est la taille par défaut."
+
+msgid "Scales the section label text above each module.\n100% is the default size."
+msgstr "Met à l'échelle le texte des étiquettes de section au-dessus de chaque module.\n100% est la taille par défaut."
+
+msgid "Simple UI was updated (%s → %s).\n\nA restart is recommended to apply all changes cleanly."
+msgstr "Simple UI a été mis à jour (%s → %s).\n\nUn redémarrage est recommandé pour appliquer toutes les modifications."
+
+msgid "Size  —  %d%%"
+msgstr "Taille  —  %d%%"
+
+msgid "Status Bar"
+msgstr "Barre d'état"
+
+msgid "Top"
+msgstr "Haut"
+
+msgid "Top Bar Size"
+msgstr "Taille de la barre supérieure"
+
+msgid "Top separator"
+msgstr "Séparateur supérieur"
+
+msgid "Visible"
+msgstr "Visible"
+
+msgid "Your highlights"
+msgstr "Vos surlignages"
+
+
+
+msgid "Lock Scale"
+msgstr "Verrouiller l'échelle"
+
+msgid "Disable \"Lock Scale\" first to set a per-module scale."
+msgstr "Désactivez \"Verrouiller l'échelle\" d'abord pour définir une échelle par module."
+
+msgid "Disable \"Lock Scale\" first to set a custom label scale."
+msgstr "Désactivez \"Verrouiller l'échelle\" d'abord pour définir une échelle d'étiquette personnalisée."
+
+msgid "Text Size"
+msgstr "Taille du texte"
+
+msgid "Modules"
+msgstr "Modules"
+
+msgid "Labels"
+msgstr "Étiquettes"
+
+msgid "Scale for this module.\n100% is the default size."
+msgstr "Échelle pour ce module.\n100% est la taille par défaut."
+
+msgid "Scale for the collection name text.\n100% is the default size."
+msgstr "Échelle du texte du nom de collection.\n100% est la taille par défaut."
+
+msgid "Scale for the cover thumbnail only.\n100% is the default size."
+msgstr "Échelle de la miniature de couverture uniquement.\n100% est la taille par défaut."
+
+msgid "Scale for all text elements (title, author, progress, time).\n100% is the default size."
+msgstr "Échelle de tous les éléments texte (titre, auteur, progression, temps).\n100% est la taille par défaut."
+
+msgid "Scale for the button label text.\n100% is the default size."
+msgstr "Échelle du texte des étiquettes de boutons.\n100% est la taille par défaut."
+
+msgid "Scale for the cover thumbnails only.\nText and progress bar follow the module scale.\n100% is the default size."
+msgstr "Échelle des miniatures de couverture uniquement.\nLe texte et la barre de progression suivent l'échelle du module.\n100% est la taille par défaut."
+
+msgid "Scale for the percentage read text.\n100% is the default size."
+msgstr "Échelle du texte de pourcentage lu.\n100% est la taille par défaut."
+
+msgid "Source"
+msgstr "Source"
+
+msgid "Default Quotes"
+msgstr "Citations par défaut"
+
+msgid "My Highlights"
+msgstr "Mes surlignages"
+
+msgid "Quotes + My Highlights"
+msgstr "Citations + mes surlignages"
+
+msgid "default"
+msgstr "défaut"
+
+msgid "Shows \"Page X of Y\" in the title bar subtitle when browsing the library, history or collections.\nNavpager enables this automatically.\nNot available when Navpager is active."
+msgstr "Affiche \"Page X sur Y\" dans la barre de titre lors de la navigation (bibliothèque, historique, collections).\nLe navigateur l'active automatiquement.\nIndisponible lorsque le navigateur est actif."
+
+msgid "Icon Size"
+msgstr "Taille des icônes"
+
+msgid "Icon Size — %d%%"
+msgstr "Taille des icônes — %d%%"
+
+msgid "Label Size"
+msgstr "Taille des étiquettes"
+
+msgid "Label Size — %d%%"
+msgstr "Taille des étiquettes — %d%%"
+
+msgid "Size of the tab icons.\n100% is the default size."
+msgstr "Taille des icônes d'onglet.\n100% est la taille par défaut."
+
+msgid "Size of the tab label text.\n100% is the default size."
+msgstr "Taille du texte des étiquettes d'onglet.\n100% est la taille par défaut."
+
+msgid "Folder Covers"
+msgstr "Couvertures de dossiers"
+
+msgid "Folder cover"
+msgstr "Couverture de dossier"
+
+msgid "Set folder cover…"
+msgstr "Définir la couverture du dossier…"
+
+msgid "No books found in this folder."
+msgstr "Aucun livre trouvé dans ce dossier."
+
+msgid "Badge"
+msgstr "Badge"
+
+msgid "Center"
+msgstr "Centre"
+
+msgid "Label"
+msgstr "Étiquette"
+
+msgid "Show label"
+msgstr "Afficher l'étiquette"
+
+msgid "Transparent"
+msgstr "Transparent"
+
+msgid "Hide selection underline"
+msgstr "Masquer le soulignement de sélection"
+
+msgid "Author"
+msgstr "Auteur"
+
+msgid "Progress bar"
+msgstr "Barre de progression"
+
+msgid "Percentage read"
+msgstr "Pourcentage lu"
+
+msgid "Folder Name"
+msgstr "Nom du dossier"
+
+msgid "Number of Books in Folder"
+msgstr "Nombre de livres dans le dossier"
+
+msgid "Number of Pages"
+msgstr "Nombre de pages"
+
+msgid "Overlay"
+msgstr "Superposition"
+
+msgid "Overlays"
+msgstr "Superpositions"
+
+msgid "Uniformize Covers (2:3)"
+msgstr "Uniformiser les couvertures (2:3)"
+
+msgid "Invalid arrangement.\nKeep the Left, Center and Right separators in order."
+msgstr "Organisation invalide.\nGardez les séparateurs Gauche, Centre et Droite dans l'ordre."
+
+msgid "Invalid arrangement.\nKeep items between the Left and Right separators."
+msgstr "Organisation invalide.\nGardez les éléments entre les séparateurs Gauche et Droite."
+
+msgid "Fetching bookmarks\xe2\x80\xa6"
+msgstr "Récupération des signets\xe2\x80\xa6"
+
+msgid "Path chooser not available."
+msgstr "Sélecteur de chemin indisponible."
+
+msgid "e.g. Comics\xe2\x80\xa6"
+msgstr "ex. BD\xe2\x80\xa6"
+
+msgid "Top Margin  (%d%%)"
+msgstr "Marge supérieure  (%d%%)"
+
+msgid "Vertical space above this module.\n100% is the default spacing."
+msgstr "Espace vertical au-dessus du module.\n100% est l'espacement par défaut."
+
+msgid "Bottom Margin"
+msgstr "Marge inférieure"
+
+msgid "Bottom Margin — %d%%"
+msgstr "Marge inférieure — %d%%"
+
+msgid "Space below the bottom navigation bar.\n100% is the default spacing."
+msgstr "Espace sous la barre de navigation inférieure.\n100% est l'espacement par défaut."
+
+msgid "Badge position: Top"
+msgstr "Position du badge : Haut"
+
+msgid "Badge position: Bottom"
+msgstr "Position du badge : Bas"
+
+msgid "Flat"
+msgstr "Plat"
+
+msgid "Percentage text"
+msgstr "Texte de pourcentage"
+
+msgid "Percentage overlay on cover"
+msgstr "Pourcentage en superposition"
+
+msgid "Text Size — %d%%"
+msgstr "Taille du texte — %d%%"
+
+msgid "Size of the text inside the stat cards.\nDoes not affect card size or padding.\n100% is the default size."
+msgstr "Taille du texte dans les cartes de statistiques.\nN'affecte pas la taille des cartes.\n100% est la taille par défaut."
+
+msgid "Monday"
+msgstr "Lundi"
+
+msgid "Tuesday"
+msgstr "Mardi"
+
+msgid "Wednesday"
+msgstr "Mercredi"
+
+msgid "Thursday"
+msgstr "Jeudi"
+
+msgid "Friday"
+msgstr "Vendredi"
+
+msgid "Saturday"
+msgstr "Samedi"
+
+msgid "Sunday"
+msgstr "Dimanche"
+
+msgid "January"
+msgstr "Janvier"
+
+msgid "February"
+msgstr "Février"
+
+msgid "March"
+msgstr "Mars"
+
+msgid "April"
+msgstr "Avril"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "June"
+msgstr "Juin"
+
+msgid "July"
+msgstr "Juillet"
+
+msgid "August"
+msgstr "Août"
+
+msgid "September"
+msgstr "Septembre"
+
+msgid "October"
+msgstr "Octobre"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "December"
+msgstr "Décembre"
